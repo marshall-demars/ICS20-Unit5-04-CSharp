@@ -14,7 +14,7 @@ class Program
         int day;
 
         // input
-        Console.WriteLine("This program tells you if you are eligable for student pricing at the museum");
+        Console.WriteLine("This program tells you if you are eligible for student pricing at the museum");
         Console.WriteLine("");
         Console.WriteLine("You will need to input your age and the day of the week you are going");
         Console.WriteLine("");
