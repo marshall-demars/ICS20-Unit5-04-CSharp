@@ -18,13 +18,19 @@ class Program
         Console.WriteLine("");
         Console.WriteLine("You will need to input your age and the day of the week you are going");
         Console.WriteLine("");
-        Console.WriteLine("Input the day of the week, for Sunday input 1, for Monday input 2, etc:");
+        Console.WriteLine("Input the day of the week.");
+        Console.WriteLine("Input 1 for Sunday.");
+        Console.WriteLine("Input 2 for Monday.");
+        Console.WriteLine("Input 3 for Tuesday.");
+        Console.WriteLine("Input 4 for Wednesday.");
+        Console.WriteLine("Input 5 for Thursday.");
+        Console.WriteLine("Input 6 for Friday.");
+        Console.WriteLine("Input 7 for Saturday.");
         day = Convert.ToInt32(Console.ReadLine());
-        
+
         Console.WriteLine("");
         Console.WriteLine("Input your age:");
         age = Convert.ToInt32(Console.ReadLine());
-        
 
         // process
         Console.WriteLine("");
